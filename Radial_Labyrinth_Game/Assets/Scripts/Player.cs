@@ -5,11 +5,12 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public float moveSpeed = 5f;
+    public GameObject reference;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        transform.position = reference.transform.position;
     }
 
     // Update is called once per frame

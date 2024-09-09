@@ -20,6 +20,8 @@ public class Player : MonoBehaviour
         float moveZ = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
 
         transform.Translate(moveX, 0, moveZ);
+
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void OnTriggerEnter(Collider other)

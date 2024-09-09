@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: HexBricks_StandardShader
   m_Shader: {fileID: 4800000, guid: 02f9653e969ec11459c0ebb367b07cb8, type: 3}
-  m_Parent: {fileID: 2100000, guid: 66779585bb974764988f107bd278f7d2, type: 2}
+  m_Parent: {fileID: 2100000, guid: 64154d5d80792f94f86e62d53e3aea66, type: 2}
   m_ModifiedSerializedProperties: 2
   m_ValidKeywords: []
   m_InvalidKeywords:
@@ -45,6 +45,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: a722c3f6057abe04a94034f923d953fb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Metallic:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Normal:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -66,7 +70,8 @@ Material:
     - _EdgeLength: 15
     - _Glossiness: 0.108
     - _HeightDisplacement: 0
-    - _SmoothnessStrength: 1
+    - _MetallicStrength: 0
+    - _Tile: 1
     - __dirty: 1
     m_Colors: []
   m_BuildTextureStacks: []

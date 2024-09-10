@@ -356,8 +356,11 @@
 "Assets/Prefabs/_Barking_Dog/Common Scripts/Turn_Move.cs"
 "Assets/Scripts/ChangeLevel.cs"
 "Assets/Scripts/DoorWall.cs"
+"Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Objetivo.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/UI/BotonIniciar.cs"
+"Assets/Scripts/Usuario.cs"
 "Assets/Scripts/ViewCamera.cs"
 -langversion:9.0
 

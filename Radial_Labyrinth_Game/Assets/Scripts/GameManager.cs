@@ -16,6 +16,9 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private GameObject finalCanvas;
 
+    [SerializeField]
+    private GameObject objectFinded;
+
     private Usuario usuario;
     private uint cantidad_objetivos_encontrados;
 
@@ -38,8 +41,22 @@ public class GameManager : MonoBehaviour
 
             loginCanvas.SetActive(false);
             finalCanvas.SetActive(true);
+            objectFinded.SetActive(false);
             ui.SetActive(true);
+        }else{
+            StartCoroutine(goodJob(2f));
         }
+    }
+
+    IEnumerator goodJob(float tiempo)
+    {
+        loginCanvas.SetActive(false);
+        finalCanvas.SetActive(false);
+        objectFinded.SetActive(true);
+        ui.SetActive(true);
+        yield return new WaitForSeconds(tiempo);
+        ui.SetActive(false);
+
     }
 
 

@@ -17,7 +17,7 @@ public class Objetivo : MonoBehaviour
         }
 
         int randomNumber = Random.Range(0, 6);
-        Debug.Log(randomNumber);
+        // Debug.Log(randomNumber);
         transform.position = referencies[randomNumber].transform.position;
 
     }
@@ -30,7 +30,6 @@ public class Objetivo : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("COLISION ahr");
         if (canvas != null)
         {
             canvas.SetActive(true);
@@ -41,7 +40,6 @@ public class Objetivo : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        Debug.Log("SALIENDO ahr");
         if (canvas != null)
         {
             canvas.SetActive(false);

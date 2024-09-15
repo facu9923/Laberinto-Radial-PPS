@@ -40,6 +40,7 @@ public class Player : MonoBehaviour
             ultimaColisionObjetivo = Time.time;
 
             gameManager.InformarObjetivoEncontrado();
+
         }
     }
 }

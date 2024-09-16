@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using System.IO;
 
 public class GameManager : MonoBehaviour
 {
@@ -20,6 +22,9 @@ public class GameManager : MonoBehaviour
     private GameObject objectFinded;
 
     private Usuario usuario;
+
+    private int[] crossAmount = {0,0,0,0,0,0};
+
     private uint cantidad_objetivos_encontrados;
 
     public void IniciarExperimento(Usuario usuario)
@@ -57,6 +62,11 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(tiempo);
         ui.SetActive(false);
 
+    }
+
+    public void addCrossAmount(int number){
+        this.crossAmount[number]++;
+        Debug.Log(this.crossAmount[number]);
     }
 
 

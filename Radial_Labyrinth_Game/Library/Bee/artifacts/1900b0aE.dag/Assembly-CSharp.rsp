@@ -355,6 +355,7 @@
 "Assets/Prefabs/_Barking_Dog/Common Scripts/MouseLook.cs"
 "Assets/Prefabs/_Barking_Dog/Common Scripts/Turn_Move.cs"
 "Assets/Scripts/ChangeLevel.cs"
+"Assets/Scripts/CrossPlane.cs"
 "Assets/Scripts/DoorWall.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Objetivo.cs"

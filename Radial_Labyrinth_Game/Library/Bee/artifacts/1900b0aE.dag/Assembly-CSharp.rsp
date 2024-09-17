@@ -361,6 +361,7 @@
 "Assets/Scripts/Objetivo.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/UI/BotonIniciar.cs"
+"Assets/Scripts/UI/QuitOnClick.cs"
 "Assets/Scripts/Usuario.cs"
 "Assets/Scripts/ViewCamera.cs"
 -langversion:9.0

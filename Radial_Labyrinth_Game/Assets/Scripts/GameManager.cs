@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
     {
         this.cantidad_objetivos_encontrados++;
 
-        if (this.cantidad_objetivos_encontrados == 3)
+        if (this.cantidad_objetivos_encontrados == 1)
         {
             // Mostrar la interfaz de prueba finalizada
 
@@ -68,7 +68,5 @@ public class GameManager : MonoBehaviour
         this.crossAmount[number]++;
         Debug.Log(this.crossAmount[number]);
     }
-
-
 
 }

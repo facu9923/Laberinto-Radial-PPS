@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/NaturalTexture/NaturalSixArmNormal.unity
+    path: Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity
     guid: 7e24d7feefdd0b34d8aedc4d282dddc9
   m_configObjects: {}

@@ -10,8 +10,9 @@ Material:
   m_Name: GrassClumps_StandardShader
   m_Shader: {fileID: 47, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 2100000, guid: 6e8442dd275001c4f9d167e8d1b8c962, type: 2}
-  m_ModifiedSerializedProperties: 0
+  m_ModifiedSerializedProperties: 18
   m_ValidKeywords:
+  - _GLOSSYREFLECTIONS_OFF
   - _NORMALMAP
   - _PARALLAXMAP
   m_InvalidKeywords: []
@@ -56,6 +57,9 @@ Material:
     m_Ints: []
     m_Floats:
     - _Glossiness: 0.16
+    - _GlossyReflections: 0
+    - _Mode: 0
     - _Parallax: 0.005
+    - _SpecularHighlights: 1
     m_Colors: []
   m_BuildTextureStacks: []

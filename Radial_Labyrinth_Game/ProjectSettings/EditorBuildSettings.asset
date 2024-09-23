@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Arms8.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity
+    guid: c2afe59c2c96cd34ead452f5ea326a5d
+  - enabled: 1
     path: Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity
     guid: 7e24d7feefdd0b34d8aedc4d282dddc9
   m_configObjects: {}

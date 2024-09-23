@@ -289,10 +289,17 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Prefabs/_Barking_Dog/Common Scripts/MouseLook.cs"
 "Assets/Prefabs/_Barking_Dog/Common Scripts/Turn_Move.cs"
+"Assets/Scripts/CargadorEscena.cs"
 "Assets/Scripts/ChangeLevel.cs"
+"Assets/Scripts/CrossPlane.cs"
 "Assets/Scripts/DoorWall.cs"
+"Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Objetivo.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/UI/BotonIniciar.cs"
+"Assets/Scripts/UI/QuitOnClick.cs"
+"Assets/Scripts/URLParameter.cs"
+"Assets/Scripts/Usuario.cs"
 "Assets/Scripts/ViewCamera.cs"
 -langversion:9.0
 

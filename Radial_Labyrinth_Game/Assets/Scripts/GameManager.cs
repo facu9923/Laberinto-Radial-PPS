@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
     {
         this.cantidad_objetivos_encontrados++;
 
-        if (this.cantidad_objetivos_encontrados == 1)
+        if (this.cantidad_objetivos_encontrados == 2)
         {
             // Mostrar la interfaz de prueba finalizada
 

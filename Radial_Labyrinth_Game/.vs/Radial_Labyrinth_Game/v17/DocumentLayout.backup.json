@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|c:\\users\\user\\workspace\\laberinto-radial-pps\\radial_labyrinth_game\\assets\\scripts\\cargadorescena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cargadorescena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|c:\\users\\user\\workspace\\laberinto-radial-pps\\radial_labyrinth_game\\assets\\scripts\\objetivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objetivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|c:\\users\\user\\workspace\\laberinto-radial-pps\\radial_labyrinth_game\\assets\\scripts\\urlparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\urlparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|c:\\users\\user\\workspace\\laberinto-radial-pps\\radial_labyrinth_game\\assets\\scripts\\cargadorescena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cargadorescena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CargadorEscena.cs",
-              "DocumentMoniker": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\CargadorEscena.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CargadorEscena.cs",
-              "ToolTip": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\CargadorEscena.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CargadorEscena.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Title": "Objetivo.cs",
+              "DocumentMoniker": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\Objetivo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objetivo.cs",
+              "ToolTip": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\Objetivo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objetivo.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:34:30.578Z",
+              "WhenOpened": "2024-10-04T16:29:41.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "URLParameter.cs",
-              "DocumentMoniker": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\URLParameter.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\URLParameter.cs",
-              "ToolTip": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\URLParameter.cs",
-              "RelativeToolTip": "Assets\\Scripts\\URLParameter.cs",
-              "ViewState": "AgIAAMcAAAAAAAAAAAAAACoBAAABAAAAAAAAAA==",
+              "Title": "CargadorEscena.cs",
+              "DocumentMoniker": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\CargadorEscena.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CargadorEscena.cs",
+              "ToolTip": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\CargadorEscena.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CargadorEscena.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:31:10.429Z",
+              "WhenOpened": "2024-09-23T15:34:30.578Z",
               "EditorCaption": ""
             }
           ]

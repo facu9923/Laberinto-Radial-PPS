@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44094324, g: 0.4896636, b: 0.5697646, a: 1}
+  m_IndirectSpecularColor: {r: 0.4409434, g: 0.48966408, b: 0.56976515, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -26976,7 +26976,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 629037280}
   m_LocalRotation: {x: -0, y: -0.00469499, z: -0, w: 0.999989}
-  m_LocalPosition: {x: 0, y: 0, z: 33.100002}
+  m_LocalPosition: {x: 0, y: -0.04, z: 33.100002}
   m_LocalScale: {x: 13.328753, y: 1, z: 11.882091}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -39825,6 +39825,8 @@ MonoBehaviour:
   loginCanvas: {fileID: 1140422293}
   finalCanvas: {fileID: 1574891621}
   objectFinded: {fileID: 310473493}
+  cantidad_brazos: 8
+  maximo: 3
 --- !u!4 &989644442
 Transform:
   m_ObjectHideFlags: 0
@@ -65084,7 +65086,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8031339192871210686, guid: 3f9b178ccd3b86f4ebbfc1f5a2815e56, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.54
+      value: -2.7
       objectReference: {fileID: 0}
     - target: {fileID: 8031339192871210686, guid: 3f9b178ccd3b86f4ebbfc1f5a2815e56, type: 3}
       propertyPath: m_LocalPosition.z

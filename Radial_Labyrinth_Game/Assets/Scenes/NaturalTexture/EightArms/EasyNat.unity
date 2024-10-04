@@ -40517,6 +40517,8 @@ MonoBehaviour:
   loginCanvas: {fileID: 1140422293}
   finalCanvas: {fileID: 1574891621}
   objectFinded: {fileID: 310473493}
+  cantidad_brazos: 8
+  maximo: 3
 --- !u!4 &989644442
 Transform:
   m_ObjectHideFlags: 0

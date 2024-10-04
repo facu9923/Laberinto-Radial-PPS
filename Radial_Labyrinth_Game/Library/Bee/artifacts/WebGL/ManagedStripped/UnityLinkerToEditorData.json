@@ -36,9 +36,13 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -52,9 +56,13 @@
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -91,9 +99,13 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -113,9 +125,13 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -135,9 +151,13 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -151,9 +171,13 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -179,8 +203,12 @@
           {
             "name": "LODGroup",
             "scenes": [
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -188,9 +216,13 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -198,8 +230,12 @@
           {
             "name": "Light",
             "scenes": [
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -219,9 +255,13 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -235,9 +275,13 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -245,9 +289,13 @@
           {
             "name": "Mesh",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -255,9 +303,13 @@
           {
             "name": "MeshFilter",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -265,9 +317,13 @@
           {
             "name": "MeshRenderer",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -275,9 +331,13 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -291,9 +351,13 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -301,9 +365,13 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -335,9 +403,13 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -351,9 +423,13 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -385,9 +461,13 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -407,9 +487,13 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -517,6 +601,12 @@
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
           },
           {
+            "name": "Required by TLS Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.tls"
+          },
+          {
             "name": "Required by TextCoreFontEngine Module",
             "scenes": [],
             "dependencyType": 2,
@@ -545,6 +635,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.uielements"
+          },
+          {
+            "name": "Required by UnityWebRequest Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequest"
           },
           {
             "name": "Required by WebGL Module",
@@ -605,8 +701,12 @@
           {
             "name": "BoxCollider",
             "scenes": [
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -614,8 +714,12 @@
           {
             "name": "CapsuleCollider",
             "scenes": [
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -629,8 +733,12 @@
           {
             "name": "MeshCollider",
             "scenes": [
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -644,8 +752,12 @@
           {
             "name": "Rigidbody",
             "scenes": [
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -653,8 +765,12 @@
           {
             "name": "SphereCollider",
             "scenes": [
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -724,6 +840,12 @@
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
           },
           {
+            "name": "Required by TLS Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.tls"
+          },
+          {
             "name": "Required by TextCoreFontEngine Module",
             "scenes": [],
             "dependencyType": 2,
@@ -754,10 +876,27 @@
             "icon": "package/com.unity.modules.uielements"
           },
           {
+            "name": "Required by UnityWebRequest Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequest"
+          },
+          {
             "name": "Required by WebGL Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.webgl"
+          }
+        ]
+      },
+      {
+        "name": "TLS",
+        "dependencies": [
+          {
+            "name": "Required by UnityWebRequest Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.unitywebrequest"
           }
         ]
       },
@@ -801,9 +940,13 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -846,9 +989,13 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -862,9 +1009,13 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Scenes/Arms8.unity",
-              "Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity",
-              "Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity"
+              "Assets/Scenes/Iniciador.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity",
+              "Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -879,6 +1030,10 @@
       },
       {
         "name": "UIElements",
+        "dependencies": []
+      },
+      {
+        "name": "UnityWebRequest",
         "dependencies": []
       },
       {

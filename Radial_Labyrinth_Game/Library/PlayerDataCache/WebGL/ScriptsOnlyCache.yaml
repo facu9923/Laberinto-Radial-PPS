@@ -24,6 +24,8 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -87,6 +89,15 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: QuitOnClick
+    methodName: QuitGame
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: QuitOnClick
     methodName: QuitGame
@@ -96,8 +107,11 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   sceneClasses:
-    Assets/Scenes/Arms8.unity:
+    Assets/Scenes/Iniciador.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -145,7 +159,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5992}
     - Class: 114
-      Script: {instanceID: 308182}
+      Script: {instanceID: 8094}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -162,7 +176,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity:
+    Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -234,15 +248,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7022}
     - Class: 114
-      Script: {instanceID: 8074}
-    - Class: 114
       Script: {instanceID: 8086}
     - Class: 114
-      Script: {instanceID: 8090}
+      Script: {instanceID: 8102}
     - Class: 114
-      Script: {instanceID: 8094}
+      Script: {instanceID: 8106}
     - Class: 114
-      Script: {instanceID: 8098}
+      Script: {instanceID: 8114}
+    - Class: 114
+      Script: {instanceID: 8118}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -265,7 +279,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity:
+    Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -335,15 +349,419 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7022}
     - Class: 114
-      Script: {instanceID: 8074}
+      Script: {instanceID: 8086}
+    - Class: 114
+      Script: {instanceID: 8102}
+    - Class: 114
+      Script: {instanceID: 8106}
+    - Class: 114
+      Script: {instanceID: 8114}
+    - Class: 114
+      Script: {instanceID: 8118}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 205
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1604}
+    - Class: 114
+      Script: {instanceID: 1726}
+    - Class: 114
+      Script: {instanceID: 2594}
+    - Class: 114
+      Script: {instanceID: 2600}
+    - Class: 114
+      Script: {instanceID: 2796}
+    - Class: 114
+      Script: {instanceID: 3080}
+    - Class: 114
+      Script: {instanceID: 3418}
+    - Class: 114
+      Script: {instanceID: 3828}
+    - Class: 114
+      Script: {instanceID: 4040}
+    - Class: 114
+      Script: {instanceID: 4812}
+    - Class: 114
+      Script: {instanceID: 4870}
+    - Class: 114
+      Script: {instanceID: 4988}
+    - Class: 114
+      Script: {instanceID: 5174}
+    - Class: 114
+      Script: {instanceID: 5234}
+    - Class: 114
+      Script: {instanceID: 5532}
+    - Class: 114
+      Script: {instanceID: 5682}
+    - Class: 114
+      Script: {instanceID: 5992}
+    - Class: 114
+      Script: {instanceID: 6000}
+    - Class: 114
+      Script: {instanceID: 7022}
     - Class: 114
       Script: {instanceID: 8086}
     - Class: 114
-      Script: {instanceID: 8090}
+      Script: {instanceID: 8102}
     - Class: 114
-      Script: {instanceID: 8094}
+      Script: {instanceID: 8106}
     - Class: 114
-      Script: {instanceID: 8098}
+      Script: {instanceID: 8118}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 205
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1604}
+    - Class: 114
+      Script: {instanceID: 1726}
+    - Class: 114
+      Script: {instanceID: 2594}
+    - Class: 114
+      Script: {instanceID: 2600}
+    - Class: 114
+      Script: {instanceID: 2796}
+    - Class: 114
+      Script: {instanceID: 3080}
+    - Class: 114
+      Script: {instanceID: 3418}
+    - Class: 114
+      Script: {instanceID: 3828}
+    - Class: 114
+      Script: {instanceID: 4040}
+    - Class: 114
+      Script: {instanceID: 4812}
+    - Class: 114
+      Script: {instanceID: 4870}
+    - Class: 114
+      Script: {instanceID: 4988}
+    - Class: 114
+      Script: {instanceID: 5174}
+    - Class: 114
+      Script: {instanceID: 5532}
+    - Class: 114
+      Script: {instanceID: 5682}
+    - Class: 114
+      Script: {instanceID: 5992}
+    - Class: 114
+      Script: {instanceID: 6000}
+    - Class: 114
+      Script: {instanceID: 7022}
+    - Class: 114
+      Script: {instanceID: 8086}
+    - Class: 114
+      Script: {instanceID: 8102}
+    - Class: 114
+      Script: {instanceID: 8106}
+    - Class: 114
+      Script: {instanceID: 8114}
+    - Class: 114
+      Script: {instanceID: 8118}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 205
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1604}
+    - Class: 114
+      Script: {instanceID: 1726}
+    - Class: 114
+      Script: {instanceID: 2594}
+    - Class: 114
+      Script: {instanceID: 2600}
+    - Class: 114
+      Script: {instanceID: 2796}
+    - Class: 114
+      Script: {instanceID: 3080}
+    - Class: 114
+      Script: {instanceID: 3418}
+    - Class: 114
+      Script: {instanceID: 3828}
+    - Class: 114
+      Script: {instanceID: 4040}
+    - Class: 114
+      Script: {instanceID: 4812}
+    - Class: 114
+      Script: {instanceID: 4870}
+    - Class: 114
+      Script: {instanceID: 4988}
+    - Class: 114
+      Script: {instanceID: 5174}
+    - Class: 114
+      Script: {instanceID: 5234}
+    - Class: 114
+      Script: {instanceID: 5532}
+    - Class: 114
+      Script: {instanceID: 5682}
+    - Class: 114
+      Script: {instanceID: 5992}
+    - Class: 114
+      Script: {instanceID: 6000}
+    - Class: 114
+      Script: {instanceID: 7022}
+    - Class: 114
+      Script: {instanceID: 8086}
+    - Class: 114
+      Script: {instanceID: 8102}
+    - Class: 114
+      Script: {instanceID: 8106}
+    - Class: 114
+      Script: {instanceID: 8118}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 205
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1604}
+    - Class: 114
+      Script: {instanceID: 1726}
+    - Class: 114
+      Script: {instanceID: 2594}
+    - Class: 114
+      Script: {instanceID: 2600}
+    - Class: 114
+      Script: {instanceID: 2796}
+    - Class: 114
+      Script: {instanceID: 3080}
+    - Class: 114
+      Script: {instanceID: 3418}
+    - Class: 114
+      Script: {instanceID: 3828}
+    - Class: 114
+      Script: {instanceID: 4040}
+    - Class: 114
+      Script: {instanceID: 4812}
+    - Class: 114
+      Script: {instanceID: 4870}
+    - Class: 114
+      Script: {instanceID: 4988}
+    - Class: 114
+      Script: {instanceID: 5174}
+    - Class: 114
+      Script: {instanceID: 5234}
+    - Class: 114
+      Script: {instanceID: 5532}
+    - Class: 114
+      Script: {instanceID: 5682}
+    - Class: 114
+      Script: {instanceID: 5992}
+    - Class: 114
+      Script: {instanceID: 6000}
+    - Class: 114
+      Script: {instanceID: 7022}
+    - Class: 114
+      Script: {instanceID: 8086}
+    - Class: 114
+      Script: {instanceID: 8102}
+    - Class: 114
+      Script: {instanceID: 8106}
+    - Class: 114
+      Script: {instanceID: 8118}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -645,7 +1063,7 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: dedeb7a48257f1c6802380d19cb11cbc
+      Hash: 29df886fbb4a2504cdf6eb65ef68d92c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager
@@ -1227,6 +1645,12 @@ ScriptsOnlyBuild:
     className: NewBehaviourScript
   - hash:
       serializedVersion: 2
+      Hash: 3fe3471221676013c0d0e50712d94017
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CargadorEscena
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -1245,6 +1669,12 @@ ScriptsOnlyBuild:
     className: Player
   - hash:
       serializedVersion: 2
+      Hash: 4b9958436a1b49e489179c6c1e8280ef
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: URLParameters
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -1255,21 +1685,13 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ViewCamera
-  - hash:
-      serializedVersion: 2
-      Hash: 3fe3471221676013c0d0e50712d94017
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CargadorEscena
-  - hash:
-      serializedVersion: 2
-      Hash: 4b9958436a1b49e489179c6c1e8280ef
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: URLParameters
   platform: 20
   scenePathNames:
-  - Assets/Scenes/Arms8.unity
-  - Assets/Scenes/NaturalTexture/EightArms/NaturalEightNormal.unity
-  - Assets/Scenes/NaturalTexture/SixArms/NaturalSixArmNormal.unity
-  playerPath: C:/Users/User/Desktop/New folder (2)/Build
+  - Assets/Scenes/Iniciador.unity
+  - Assets/Scenes/NaturalTexture/SixArms/EasyNat.unity
+  - Assets/Scenes/NaturalTexture/SixArms/NormalNat.unity
+  - Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity
+  - Assets/Scenes/NaturalTexture/EightArms/NormalNat.unity
+  - Assets/Scenes/NaturalTexture/TwelveArms/EasyNat.unity
+  - Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity
+  playerPath: C:/Users/User/Desktop/build_unity

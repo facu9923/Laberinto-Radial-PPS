@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.IO;
+using UnityEngine.Networking;
 
 public class GameManager : MonoBehaviour
 {
@@ -23,9 +24,22 @@ public class GameManager : MonoBehaviour
 
     private Usuario usuario;
 
-    private int[] crossAmount = {0,0,0,0,0,0};
+    private int[] crossAmount;
 
     private uint cantidad_objetivos_encontrados;
+
+    [SerializeField]
+    private uint cantidad_brazos;
+
+    [SerializeField]
+    private int maximo;
+
+    public void Start()
+    {
+        crossAmount = new int[cantidad_brazos];
+
+        Debug.Log("maximo es: " + maximo);
+    }
 
     public void IniciarExperimento(Usuario usuario)
     {
@@ -40,7 +54,7 @@ public class GameManager : MonoBehaviour
     {
         this.cantidad_objetivos_encontrados++;
 
-        if (this.cantidad_objetivos_encontrados == 2)
+        if (this.cantidad_objetivos_encontrados >= maximo)
         {
             // Mostrar la interfaz de prueba finalizada
 
@@ -48,10 +62,45 @@ public class GameManager : MonoBehaviour
             finalCanvas.SetActive(true);
             objectFinded.SetActive(false);
             ui.SetActive(true);
-        }else{
+
+            StartCoroutine(EnviarDatos());
+        }
+        else
+        {
             StartCoroutine(goodJob(2f));
         }
     }
+
+    IEnumerator EnviarDatos()
+    {
+        int cantidad_errores = 0;
+        for (int i = 0; i < cantidad_brazos; i++)
+            cantidad_errores += crossAmount[i];
+        cantidad_errores -= maximo;
+
+        List<IMultipartFormSection> formData = new List<IMultipartFormSection>();
+        formData.Add(new MultipartFormDataSection("nombre", usuario.nombre));
+        formData.Add(new MultipartFormDataSection("apellido", usuario.apellido));
+        formData.Add(new MultipartFormDataSection("edad", usuario.edad.ToString()));
+        formData.Add(new MultipartFormDataSection("cantidad_errores", cantidad_errores.ToString()));
+        formData.Add(new MultipartFormDataSection("maximo", maximo.ToString()));
+
+        UnityWebRequest www = UnityWebRequest.Post("https://a215-181-191-127-56.ngrok-free.app/", formData);
+
+        yield return www.SendWebRequest();
+
+        if (www.result != UnityWebRequest.Result.Success)
+        {
+            Debug.Log(www.error);
+        }
+        else
+        {
+            Debug.Log("Form upload complete!");
+        }
+    }
+
+
+
 
     IEnumerator goodJob(float tiempo)
     {

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3822313, g: 0.46889317, b: 0.613982, a: 1}
+  m_IndirectSpecularColor: {r: 0.38149974, g: 0.46815968, b: 0.6131704, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -302,7 +302,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 10101503}
   m_LocalRotation: {x: 0, y: -0.25247478, z: 0, w: 0.9676035}
-  m_LocalPosition: {x: 1.96, y: -0.02, z: 31.559998}
+  m_LocalPosition: {x: 1.96, y: -0.38, z: 31.559998}
   m_LocalScale: {x: 16.094429, y: 0.04135438, z: 12.986774}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -53037,6 +53037,8 @@ MonoBehaviour:
   loginCanvas: {fileID: 146937165}
   finalCanvas: {fileID: 1800713874}
   objectFinded: {fileID: 1812799934}
+  cantidad_brazos: 0
+  maximo: 0
 --- !u!4 &2104443440
 Transform:
   m_ObjectHideFlags: 0

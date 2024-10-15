@@ -16,7 +16,7 @@ public class Objetivo : MonoBehaviour
             canvas.SetActive(false);
         }
 
-        int randomNumber = Random.Range(0, 8);
+        int randomNumber = Random.Range(0, 6);
         // Debug.Log(randomNumber);
         transform.position = referencies[randomNumber].transform.position;
 

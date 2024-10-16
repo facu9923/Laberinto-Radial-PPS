@@ -23,7 +23,6 @@ app.post("/", upload.none(), async (req, res) => {
     );
 
     res.send('ok');
-
 });
 
 app.listen(port, () => {

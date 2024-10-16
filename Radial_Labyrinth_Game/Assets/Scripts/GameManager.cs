@@ -85,7 +85,7 @@ public class GameManager : MonoBehaviour
         formData.Add(new MultipartFormDataSection("cantidad_errores", cantidad_errores.ToString()));
         formData.Add(new MultipartFormDataSection("maximo", maximo.ToString()));
 
-        UnityWebRequest www = UnityWebRequest.Post("https://a215-181-191-127-56.ngrok-free.app/", formData);
+        UnityWebRequest www = UnityWebRequest.Post("https://api.laberinto-radial.tech/", formData);
 
         yield return www.SendWebRequest();
 

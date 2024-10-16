@@ -1,6 +1,6 @@
 import { FaRegCopy } from "react-icons/fa";
 import { useRef } from "react";
-import { useToast } from "@/components/ui/use-toast";
+import { useToast } from "../components/ui/use-toast";
 
 export default function URLGenerada({ url }: { url: string }) {
 
@@ -15,8 +15,7 @@ export default function URLGenerada({ url }: { url: string }) {
                 inputRef.current.focus();
                 inputRef.current.select();
                 toast({
-                    description: "Texto copiado al portapapeles",
-                    variant: "outline",
+                    description: "Texto copiado al portapapeles"
                 })
                 await navigator.clipboard.writeText(inputRef.current.value);
             }}

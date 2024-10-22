@@ -10,6 +10,8 @@ public class Player : MonoBehaviour
     public float moveSpeed = 5f;
     public GameObject reference;
 
+    public float runMultiplier = 2f;
+
     private float ultimaColisionObjetivo = 0;
 
     // Start is called before the first frame update
@@ -21,8 +23,15 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         float moveX = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
         float moveZ = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            moveX *= runMultiplier;
+            moveZ *= runMultiplier;
+        }
 
         transform.Translate(moveX, 0, moveZ);
 

@@ -20,7 +20,10 @@ public class GameManager : MonoBehaviour
     private GameObject finalCanvas;
 
     [SerializeField]
-    private GameObject objectFinded;
+    private GameObject objectFinded1;
+
+    [SerializeField]
+    private GameObject objectFinded2;
 
     private Usuario usuario;
 
@@ -37,8 +40,6 @@ public class GameManager : MonoBehaviour
     public void Start()
     {
         crossAmount = new int[cantidad_brazos];
-
-        Debug.Log("maximo es: " + maximo);
     }
 
     public void IniciarExperimento(Usuario usuario)
@@ -60,14 +61,19 @@ public class GameManager : MonoBehaviour
 
             loginCanvas.SetActive(false);
             finalCanvas.SetActive(true);
-            objectFinded.SetActive(false);
+            objectFinded1.SetActive(false);
+            objectFinded2.SetActive(false);
             ui.SetActive(true);
 
             StartCoroutine(EnviarDatos());
         }
-        else
+        else if (this.cantidad_objetivos_encontrados == 1)
         {
-            StartCoroutine(goodJob(2f));
+            StartCoroutine(goodJob(2f, 1));
+        }
+        else if (this.cantidad_objetivos_encontrados == 2)
+        {
+            StartCoroutine(goodJob(2f, 2));
         }
     }
 
@@ -102,20 +108,30 @@ public class GameManager : MonoBehaviour
 
 
 
-    IEnumerator goodJob(float tiempo)
+    IEnumerator goodJob(float tiempo, int i)
     {
-        loginCanvas.SetActive(false);
-        finalCanvas.SetActive(false);
-        objectFinded.SetActive(true);
-        ui.SetActive(true);
-        yield return new WaitForSeconds(tiempo);
-        ui.SetActive(false);
+        if (i == 1) {
+            loginCanvas.SetActive(false);
+            finalCanvas.SetActive(false);
+            objectFinded1.SetActive(true);
+            objectFinded2.SetActive(false);
+            ui.SetActive(true);
+            yield return new WaitForSeconds(tiempo);
+            ui.SetActive(false);
+        }  else {
+            loginCanvas.SetActive(false);
+            finalCanvas.SetActive(false);
+            objectFinded1.SetActive(false);
+            objectFinded2.SetActive(true);
+            ui.SetActive(true);
+            yield return new WaitForSeconds(tiempo);
+            ui.SetActive(false);
+        }
 
     }
 
     public void addCrossAmount(int number){
         this.crossAmount[number]++;
-        Debug.Log(this.crossAmount[number]);
     }
 
 }

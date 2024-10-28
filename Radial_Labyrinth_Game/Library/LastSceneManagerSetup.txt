@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/NaturalTexture/TwelveArms/NormalNat.unity
+- path: Assets/Scenes/NaturalTexture/EightArms/EasyNat.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

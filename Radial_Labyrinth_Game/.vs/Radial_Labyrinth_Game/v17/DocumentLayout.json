@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|c:\\users\\user\\workspace\\laberinto-radial-pps\\radial_labyrinth_game\\assets\\scripts\\armcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\armcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|c:\\users\\user\\workspace\\laberinto-radial-pps\\radial_labyrinth_game\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\assets\\scripts\\ui\\quitonclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\quitonclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\assets\\scripts\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\assets\\scripts\\ui\\botoniniciar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\botoniniciar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|c:\\users\\user\\workspace\\laberinto-radial-pps\\radial_labyrinth_game\\assets\\scripts\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|c:\\users\\user\\workspace\\laberinto-radial-pps\\radial_labyrinth_game\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\assets\\scripts\\ui\\quitonclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\quitonclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F916CCF9-97C0-7AC8-3D58-609B2CCBA390}|Assembly-CSharp.csproj|C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\assets\\scripts\\cargadorescena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAIYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T16:29:54.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\Usuario.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Usuario.cs",
@@ -55,33 +72,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BotonIniciar.cs",
-              "DocumentMoniker": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\UI\\BotonIniciar.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\BotonIniciar.cs",
-              "ToolTip": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\UI\\BotonIniciar.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\BotonIniciar.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCcAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T16:55:04.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwAkAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T16:54:36.425Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "ArmCollider.cs",
+              "DocumentMoniker": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\ArmCollider.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ArmCollider.cs",
+              "ToolTip": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\ArmCollider.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ArmCollider.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T00:15:04.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BotonIniciar.cs",
+              "DocumentMoniker": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\UI\\BotonIniciar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\BotonIniciar.cs",
+              "ToolTip": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\UI\\BotonIniciar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\BotonIniciar.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T16:55:04.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "QuitOnClick.cs",
               "DocumentMoniker": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\UI\\QuitOnClick.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\QuitOnClick.cs",
@@ -94,20 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAwwFcAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T16:29:54.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Objetivo.cs",
               "DocumentMoniker": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\Objetivo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objetivo.cs",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CargadorEscena.cs",
               "DocumentMoniker": "C:\\Users\\User\\workspace\\Laberinto-Radial-PPS\\Radial_Labyrinth_Game\\Assets\\Scripts\\CargadorEscena.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CargadorEscena.cs",

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,6 +14,8 @@ public class Player : MonoBehaviour
     public float runMultiplier = 2f;
 
     private float ultimaColisionObjetivo = 0;
+
+    private int brazoActual = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -43,7 +46,7 @@ public class Player : MonoBehaviour
         if (other.CompareTag("Objetivo") && Time.time - ultimaColisionObjetivo > 1)
         {
             transform.position = reference.transform.position;
-            float randomNumber = Random.Range(0f, 360f);
+            float randomNumber = UnityEngine.Random.Range(0f, 360f);
             transform.Rotate(new Vector3(0f, randomNumber, 0f));
 
             ultimaColisionObjetivo = Time.time;
@@ -51,5 +54,15 @@ public class Player : MonoBehaviour
             gameManager.InformarObjetivoEncontrado();
 
         }
+    }
+
+    public void OnNewArm(int armID)
+    {
+        brazoActual = armID;
+    }
+
+    public void OnSpawn()
+    {
+        brazoActual = 0;
     }
 }

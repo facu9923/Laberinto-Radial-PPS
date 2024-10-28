@@ -133,5 +133,4 @@ public class GameManager : MonoBehaviour
     public void addCrossAmount(int number){
         this.crossAmount[number]++;
     }
-
 }

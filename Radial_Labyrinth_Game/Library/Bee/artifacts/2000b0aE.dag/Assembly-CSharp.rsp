@@ -353,6 +353,7 @@
 "Assets/Prefabs/Flat/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs"
 "Assets/Prefabs/_Barking_Dog/Common Scripts/MouseLook.cs"
 "Assets/Prefabs/_Barking_Dog/Common Scripts/Turn_Move.cs"
+"Assets/Scripts/ArmCollider.cs"
 "Assets/Scripts/CargadorEscena.cs"
 "Assets/Scripts/ChangeLevel.cs"
 "Assets/Scripts/CrossPlane.cs"

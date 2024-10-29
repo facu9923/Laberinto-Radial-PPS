@@ -58,11 +58,13 @@ public class Player : MonoBehaviour
 
     public void OnNewArm(int armID)
     {
+        Debug.Log("Estas en el brazo: " +  armID);
         brazoActual = armID;
     }
 
     public void OnSpawn()
     {
+        Debug.Log("Estas en el spawn");
         brazoActual = 0;
     }
 }

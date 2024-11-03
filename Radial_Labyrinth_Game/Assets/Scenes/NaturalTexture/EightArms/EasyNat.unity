@@ -27201,7 +27201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 989644441}
-  plane: 5
+  plane: 7
 --- !u!64 &624003330
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40402,8 +40402,8 @@ MonoBehaviour:
   finalCanvas: {fileID: 1574891621}
   objectFinded1: {fileID: 310473493}
   objectFinded2: {fileID: 1297929459}
-  cantidad_brazos: 8
   maximo: 3
+  intervalInMilliseconds: 4000
 --- !u!4 &989644442
 Transform:
   m_ObjectHideFlags: 0
@@ -64819,7 +64819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 989644441}
-  plane: 5
+  plane: 6
 --- !u!64 &1575006080
 MeshCollider:
   m_ObjectHideFlags: 0

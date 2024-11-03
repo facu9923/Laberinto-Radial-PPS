@@ -47439,8 +47439,7 @@ MonoBehaviour:
   finalCanvas: {fileID: 986114873}
   objectFinded1: {fileID: 2056501520}
   objectFinded2: {fileID: 367696231}
-  cantidad_brazos: 12
-  maximo: 3
+  maximo: 1
 --- !u!4 &1646130692
 Transform:
   m_ObjectHideFlags: 0

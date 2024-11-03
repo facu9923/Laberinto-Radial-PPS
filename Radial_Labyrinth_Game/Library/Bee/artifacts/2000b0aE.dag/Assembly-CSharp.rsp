@@ -363,6 +363,7 @@
 "Assets/Scripts/UI/QuitOnClick.cs"
 "Assets/Scripts/URLParameter.cs"
 "Assets/Scripts/Usuario.cs"
+"Assets/Scripts/Util.cs"
 "Assets/Scripts/ViewCamera.cs"
 -langversion:9.0
 

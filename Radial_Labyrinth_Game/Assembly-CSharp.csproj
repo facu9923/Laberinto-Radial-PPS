@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\URLParameter.cs" />
+    <Compile Include="Assets\Scripts\Util.cs" />
     <Compile Include="Assets\Prefabs\Flat\_BPS Basic Assets\Common\Scripts and Animations\Doors\opencloseStallDoor.cs" />
     <Compile Include="Assets\Scripts\UI\BotonIniciar.cs" />
     <Compile Include="Assets\Prefabs\Flat\Apartment Kit\Common\Scripts &amp; Animation\Slide\opencloseSlide.cs" />

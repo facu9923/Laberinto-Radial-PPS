@@ -67,4 +67,9 @@ public class Player : MonoBehaviour
         Debug.Log("Estas en el spawn");
         brazoActual = 0;
     }
+
+    public int GetArm()
+    {
+        return brazoActual;
+    }
 }

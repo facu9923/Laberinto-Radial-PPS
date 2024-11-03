@@ -12,12 +12,15 @@ import { Button } from "./components/ui/button";
 import { Toaster } from "./components/ui/toaster"
 import { useEffect, useState } from "react";
 import URLGenerada from "./components/URLGenerada";
+import { randomID } from "./lib/utils";
 
 function App() {
 
     const [brazos, setBrazos] = useState("8");
     const [dificultad, setDificultad] = useState("normal");
-    
+    const [ambiente, setAmbiente] = useState("naturaleza");
+    const [id, setId] = useState<string|null>(null);
+
     const [url, setUrl] = useState<string | null>(null);
 
     useEffect(() => {
@@ -26,11 +29,12 @@ function App() {
 
     function onGenerateLink() {
 
-        console.log("Cantidad de brazos: " + brazos);
-
         const urlSearchParams = new URLSearchParams();
         urlSearchParams.append("brazos", brazos);
         urlSearchParams.append("dificultad", dificultad);
+        urlSearchParams.append("ambiente", ambiente);
+
+        setId(randomID(12));
 
         setUrl("https://experimento.laberinto-radial.tech/?" + urlSearchParams.toString())
     };
@@ -50,9 +54,9 @@ function App() {
                                 <SelectValue placeholder="8 brazos" />
                             </SelectTrigger>
                             <SelectContent>
-                                <SelectItem value="4">4 brazos</SelectItem>
+                                <SelectItem value="6">6 brazos</SelectItem>
                                 <SelectItem value="8">8 brazos</SelectItem>
-                                <SelectItem value="16">16 brazos</SelectItem>
+                                <SelectItem value="12">12 brazos</SelectItem>
                             </SelectContent>
                         </Select>
                     </div>
@@ -70,10 +74,23 @@ function App() {
                         </Select>
                     </div>
 
+                    <div className="flex flex-col gap-y-2">
+                        <Label className="text-md">Ambiente</Label>
+                        <Select value={ambiente} onValueChange={setAmbiente}>
+                            <SelectTrigger className="w-[180px]">
+                                <SelectValue placeholder="Naturaleza" />
+                            </SelectTrigger>
+                            <SelectContent>
+                                <SelectItem value="naturaleza">Naturaleza</SelectItem>
+                                <SelectItem value="clinica">Clínica</SelectItem>
+                            </SelectContent>
+                        </Select>
+                    </div>
+
                     <Button variant="outline" className="max-w-min" onClick={onGenerateLink}>Generar enlace</Button>
                 </div>
 
-                {url && <URLGenerada url={url} />}
+                {url && <URLGenerada url={url} id={id || ""} />}
 
             </main>
             <Toaster />

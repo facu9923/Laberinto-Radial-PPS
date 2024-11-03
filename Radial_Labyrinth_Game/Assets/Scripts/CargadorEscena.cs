@@ -5,19 +5,20 @@ using UnityEngine;
 using TMPro;
 using System;
 using UnityEngine.SceneManagement;
+using System.Text.RegularExpressions;
 
 public class CargadorEscena : MonoBehaviour
 {
     [SerializeField]
     private TMP_Text text;
 
-
-    // Start is called before the first frame update
     void Start()
     {
 
         int cantidad_brazos = URLParameters.GetSearchParameters().GetInt("brazos", 8);
         string dificultad = URLParameters.GetSearchParameters().GetValueOrDefault("dificultad", "normal");
+        string ambiente = URLParameters.GetSearchParameters().GetValueOrDefault("ambiente", "naturaleza");
+        string gameID = URLParameters.GetSearchParameters().GetValueOrDefault("id", "999999999999");
 
         if (cantidad_brazos != 6 && cantidad_brazos != 8 && cantidad_brazos != 12)
         {
@@ -28,6 +29,18 @@ public class CargadorEscena : MonoBehaviour
         if (dificultad != "normal" && dificultad != "facil")
         {
             text.text = "Dificultad invalida";
+            return;
+        }
+
+        if (ambiente != "naturaleza" && ambiente != "clinica")
+        {
+            text.text = "Ambiente invalido";
+            return;
+        }
+
+        if (gameID.Length != 12 || !Regex.IsMatch(gameID, "^[A-Za-z0-9]+$"))
+        {
+            text.text = "ID de juego invalido";
             return;
         }
 
@@ -46,12 +59,9 @@ public class CargadorEscena : MonoBehaviour
         if (cantidad_brazos == 12 && dificultad == "normal")
             sceneBuildIndex = 6;
 
-        SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
-    }
+        if (ambiente == "clinica")
+            sceneBuildIndex += 6;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
     }
 }

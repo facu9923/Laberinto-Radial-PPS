@@ -13,7 +13,7 @@ const router = createBrowserRouter([
         element: <App />,
     },
     {
-        path: "/seguimiento",
+        path: "/seguimiento/:gameID",
         element: <Seguimiento />,
     }
 ]);

@@ -26,7 +26,7 @@ export default function URLGenerada({ url, id }: { url: string, id: string }) {
             </div>
 
             <div>
-                <a href={`/seguimiento?id=${id}`} target="_blank" className="mt-2 font-semibold underline text-gray-600 text-sm">Seguimiento</a>
+                <a href={`/seguimiento/${id}`} target="_blank" className="mt-2 font-semibold underline text-gray-600 text-sm">Seguimiento</a>
             </div>
         </>
     );

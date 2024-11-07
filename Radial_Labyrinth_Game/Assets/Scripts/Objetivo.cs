@@ -4,45 +4,22 @@ using UnityEngine;
 
 public class Objetivo : MonoBehaviour
 {
-    public GameObject canvas;
-    // private Vector3[] positions;
     public GameObject[] referencies;
 
-    // Start is called before the first frame update
     void Start()
     {
-        if (canvas != null)
-        {
-            canvas.SetActive(false);
-        }
-
         int randomNumber = Random.Range(0, 6);
-        // Debug.Log(randomNumber);
         transform.position = referencies[randomNumber].transform.position;
 
-    }
+        string a = "Referencias para la esfera:\n[";
 
-    // Update is called once per frame
-    void Update()
-    {
-       
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        if (canvas != null)
+        for (int i = 0; i< referencies.Length; i++)
         {
-            canvas.SetActive(true);
+            a += "[" + referencies[i].transform.position.x.ToString() + ", " + referencies[i].transform.position.z.ToString() + "]\n";
         }
-        
+        a += "]";
 
-    }
+        Debug.Log(a);
 
-    void OnTriggerExit(Collider other)
-    {
-        if (canvas != null)
-        {
-            canvas.SetActive(false);
-        }
     }
 }

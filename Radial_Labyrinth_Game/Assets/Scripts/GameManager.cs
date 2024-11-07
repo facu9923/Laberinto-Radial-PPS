@@ -86,6 +86,9 @@ public class GameManager : MonoBehaviour
 
     float tiempo_inicio;
 
+
+    bool initial_sent = false;
+
     public void Start()
     {
         gameID = URLParameters.GetSearchParameters().GetValueOrDefault("id", GeneradorAleatorio.GenerarCadenaAleatoria());
@@ -114,7 +117,8 @@ public class GameManager : MonoBehaviour
             formData.Add(new MultipartFormDataSection("escena", Util.getSceneID(cantidad_brazos, dificultad, ambiente).ToString()));
             formData.Add(new MultipartFormDataSection("brazo", player.GetComponent<Player>().GetArm().ToString()));
 
-            StartCoroutine(EnviarDatosRecurrentes(formData));
+            if (!initial_sent)
+                StartCoroutine(EnviarDatosRecurrentes(formData));
         }
     }
 
@@ -178,6 +182,8 @@ public class GameManager : MonoBehaviour
         {
             StartCoroutine(goodJob(2f, 2));
         }
+
+        StartCoroutine(EnviarObjetivoEncontrado());
     }
 
     IEnumerator EnviarDatosFinales()
@@ -226,6 +232,7 @@ public class GameManager : MonoBehaviour
 
         if (www.result != UnityWebRequest.Result.Success)
         {
+            initial_sent = true;
             Debug.Log(www.error);
         }
         else
@@ -234,22 +241,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    /*
-    IEnumerator EnviarDatosFinales()
+    IEnumerator EnviarObjetivoEncontrado()
     {
-        int cantidad_errores = 0;
-        for (int i = 0; i < cantidad_brazos; i++)
-            cantidad_errores += crossAmount[i];
-        cantidad_errores -= maximo;
-
         List<IMultipartFormSection> formData = new List<IMultipartFormSection>();
-        formData.Add(new MultipartFormDataSection("nombre", usuario.nombre));
-        formData.Add(new MultipartFormDataSection("apellido", usuario.apellido));
-        formData.Add(new MultipartFormDataSection("edad", usuario.edad.ToString()));
-        formData.Add(new MultipartFormDataSection("cantidad_errores", cantidad_errores.ToString()));
-        formData.Add(new MultipartFormDataSection("maximo", maximo.ToString()));
 
-        UnityWebRequest www = UnityWebRequest.Post("https://api.laberinto-radial.tech/", formData);
+        formData.Add(new MultipartFormDataSection("id", gameID));
+
+        UnityWebRequest www = UnityWebRequest.Post(endpoint + "/objetivo", formData);
 
         yield return www.SendWebRequest();
 
@@ -259,10 +257,9 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Form upload complete!");
+            Debug.Log("Se enviaron objetivo!");
         }
     }
-    */
 
     IEnumerator goodJob(float tiempo, int i)
     {

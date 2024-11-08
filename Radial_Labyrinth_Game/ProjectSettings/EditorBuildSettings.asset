@@ -31,17 +31,17 @@ EditorBuildSettings:
     guid: 809e6042649c024489134ff241062711
   - enabled: 1
     path: Assets/Scenes/ClinicalTexture/SixArms/NormalClinic.unity
-    guid: c822cc10390d5d341935f501772a7be1
+    guid: 2af2304af3f1cd54a90c0918534bc939
   - enabled: 1
     path: Assets/Scenes/ClinicalTexture/EightArms/EasyClinic.unity
     guid: 5558032df3361ef47afd5b5b9d93f11b
   - enabled: 1
     path: Assets/Scenes/ClinicalTexture/EightArms/NormalClinic.unity
-    guid: c91d0624a303f1f4e860d14d1a72a87f
+    guid: 1df84566b373102428869aee85a91edf
   - enabled: 1
     path: Assets/Scenes/ClinicalTexture/TwelveArms/EasyClinic.unity
     guid: 1f40ad41b37d6e54e8ff86777dd40d51
   - enabled: 1
     path: Assets/Scenes/ClinicalTexture/TwelveArms/NormalClinic.unity
-    guid: 7451eff5eb4a9b44588864b9d2c40315
+    guid: b7f3a967b742a4748907e8b2c09b05c3
   m_configObjects: {}

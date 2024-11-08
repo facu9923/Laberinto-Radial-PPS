@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/ClinicalTexture/SixArms/EasyClinic.unity
+- path: Assets/Scenes/ClinicalTexture/SixArms/NormalClinic.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

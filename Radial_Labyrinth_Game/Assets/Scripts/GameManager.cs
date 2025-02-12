@@ -77,7 +77,7 @@ public class GameManager : MonoBehaviour
 
 
 #if UNITY_EDITOR
-    string endpoint = "http://localhost:80";
+    string endpoint = "http://localhost:3000";
 #else
     string endpoint = "https://api.laberinto-radial.tech";
 #endif

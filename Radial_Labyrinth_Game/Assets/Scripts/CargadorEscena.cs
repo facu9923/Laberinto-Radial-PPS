@@ -14,7 +14,7 @@ public class CargadorEscena : MonoBehaviour
 
     void Start()
     {
-        int cantidad_brazos = URLParameters.GetSearchParameters().GetInt("brazos", 8);
+        int cantidad_brazos = URLParameters.GetSearchParameters().GetInt("brazos", 6);
         string dificultad = URLParameters.GetSearchParameters().GetValueOrDefault("dificultad", "normal");
         string ambiente = URLParameters.GetSearchParameters().GetValueOrDefault("ambiente", "naturaleza");
         string gameID = URLParameters.GetSearchParameters().GetValueOrDefault("id", "999999999999");

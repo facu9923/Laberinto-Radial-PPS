@@ -10,7 +10,7 @@ Este proyecto combina diversas tecnologías para ofrecer una experiencia fluida 
 - 🌐 Cloudflare – Para mejorar la seguridad y el rendimiento del sitio.
 - 🐍 Flask – Para la integración de modelos de análisis y procesamiento de datos.
 # 📜 Características
-## ✔️ Simulación de un laberinto radial con diferentes niveles de dificultad.
-## ✔️ Registro de datos para evaluar el desempeño de los participantes.
-## ✔️ Análisis y visualización de resultados en tiempo real.
-## ✔️ Infraestructura escalable gracias a AWS y Cloudflare.
+- ✔️ Simulación de un laberinto radial con diferentes niveles de dificultad.
+- ✔️ Registro de datos para evaluar el desempeño de los participantes.
+- ✔️ Análisis y visualización de resultados en tiempo real.
+- ✔️ Infraestructura escalable gracias a AWS y Cloudflare.
